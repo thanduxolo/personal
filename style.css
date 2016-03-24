@@ -1,0 +1,30 @@
+body{
+	background: #dcdcdc;
+	width: ;
+	
+}
+
+.block{
+	background: white;
+	width: 600px;
+	height: 500px;
+	border: 1px solid dashed;
+	margin-left: 10px;
+}
+
+.col-xs-8, .col-xs-4{
+	border: 1px;
+}
+
+.col-xs-8{
+	background-color: white;
+	height: 500px;
+	text-align: center;
+}
+
+.col-xs-4{
+	
+}
+a:hover{
+	color: red;
+}
