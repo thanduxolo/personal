@@ -1,0 +1,13 @@
+/**This is a custom css */
+.col-md-1, .col-md-4, .col-md-3, .col-md-6, .col-md-8, .col-xs-1{
+	background-color: #34495e;
+	color: white;
+	line-height: 5em;
+	border: 1px solid white;
+	height: 13em;
+}
+
+body{
+	background:;
+	
+}
