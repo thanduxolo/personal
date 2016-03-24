@@ -1,0 +1,9 @@
+
+body{
+	background: gray;
+}
+
+.col-md-1{
+	background-color: #E0E0E0;
+	border: 1px solid white; 
+}
