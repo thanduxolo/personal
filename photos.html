@@ -1,99 +1,93 @@
 <!doctype html>
 <html>
 <head lang="eng">
-	<title>Photos</title>
-	
+	<title>My Photos</title>	
 	<meta charset="UTF-8">
-	<meta name="viewpoint" content="device=device-width" initial-scale=1.0>
+	<meta name="viewpoint" content="device=device-width, initial-scale=1.0">
 	
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="style.css">
-	<script src="js/respond.js/"></script>
-
-
+	<script src="js/respond.js/"></script>	
 </head>
 <body>
-	
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<!-- Collect the nav links,forms and other contentv for toggling -->
-			<div class="colapse navbar-colapse" id="bs-example-navbar-collapse-1">
-			<center><h2>PHOTOS PAGE</h2></center><br>
-				<ul class="nav navbar-nav">
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Collect the nav links,forms and other contentv for toggling -->
+				<div class="colapse navbar-colapse" id="bs-example-navbar-collapse-1">
+					<h2><strong>THANDUXOLO NODWENGU</strong></h2>
+					<hr><br>
+					
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="about.html">About me <span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="photos.html">Photos <span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
+						<li class="active"><a href="hireMe.html">Hire Me <span class="sr-only">(current)</span></a></li>
+					</ul>
+				</div><!--nav-colapse -->
+			</div><!--Container fluid -->
+			
+		</nav>
+	</header>
 
-					<li class="active"><a href="about.html">About me <span class="sr-only">(current)</span></a></li>
-					<li class="active"><a href="photos.html">Photos <span class="sr-only">(current)</span></a></li>
-					<li class="active"><a href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
-					<li class="active"><a href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
-					<li class="active"><a href="hireMe.html">Hire Me <span class="sr-only">(current)</span></a></li>
-				</ul>
-			</div><!--nav-colapse -->
-		</div><!--Container fluid -->
+	<div class="row" style="padding-left: 70px">
+		<div class="col-xs-9">
+			<h4><center>My Photos</center></h4>
+			<hr>
 		
-	</nav>
-
-
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-8">
-				<h4>My Photos</h4>
-				<hr>
-				
-				<div class="container" style="margin-top:0em; margin-left:10em;">
-
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="1"></li>
-							<li data-target="#myCarousel" data-slide-to="2"></li>
-						</ol>
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="chiefs.jpg" alt="Image1" width="400px" height="200px" style="align: center">
-							</div>
-							<div class="item">
-								<img src="facebook.jpg" alt="Image2" width="400" height="400">
-							</div>
-							<div class="item">
-								<img src="twitter.jpg" alt="Image3" width="400" height="658">
-							</div>
-						</div >
-	
-						<!-- Left and right controls -->
-						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
+			<div id="myCarousel" class="carousel slide">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+			
+				<!-- Carousel Items -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="chiefs.jpg" alt="Image1" style="margin-left: 200px" width="400">
+					</div>
+					<div class="item">
+						<img src="facebook.jpg" alt="Image2" style="margin-left: 200px" width="400">
+					</div>
+					<div class="item">
+						<img src="twitter.png" alt="Image3" style="margin-left: 200px" width="400">
 					</div>
 				</div>
-				
-			</div>
-			<div class="col-xs-4">
-				<a href="https://www.facebook.com/thando.nodwengu"><img src="facebook.jpg" alt="Facebook" height="50px" width="50"></a>
-				<a href="https://twitter.com/nodwengut"><img src="twitter.png" alt="Tweeter" height="50px" width="50"></a>
-				<a href="https://www.linkedin.com/in/nodwenguthanduxolo"><img src="linkedin.jpeg" alt="Linkedin" height="50px" width="50"></a>
-				<!--<a href="#"><img src="chiefs.jpg" alt="Image" height="50px" width="50"></a>
-				<a href="#"><img src="chiefs.jpg" alt="Image" height="50px" width="50"></a>
-				<a href="#"><img src="chiefs.jpg" alt="Image" height="50px" width="50"></a> -->
-			</div>
-		</div>
-	</div>
 
+				<!-- Left and right controls -->
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div><!--col-xs-9 -->
+		<!--Social media images links -->
+		<div class="col-xs-3" style="padding-top: 70px">
+			<a href="https://www.facebook.com/thando.nodwengu">
+				<img src="facebook.jpg" alt="Facebook" height="50" width="50">
+			</a>
+			<a href="https://twitter.com/nodwengut">
+				<img src="twitter.png" alt="Tweeter" height="50" width="50">
+			</a>
+			<a href="https://www.linkedin.com/in/nodwenguthanduxolo">
+				<img src="linkedin.jpeg" alt="Linkedin" height="50" width="50">
+			</a>
+		</div><!-- col-xs-3 -->
+	</div><!-- row -->
 
-	<script url="js/jquery-latest.js"></script>
-	<script url="js/bootstrap.js"></script>
-	
-	<footer class="footer" style="margin: 5em 0em 1em 0em">
-		<div class="container" style="padding-left: 0px">
+	<hr>
+	<footer class="footer" style="margin: 5px 0 1px 0">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="wrapper" style="background-color: red; padding: 1em 2em">
+					<div class="wrapper" style="background-color:silver; padding:1px 2px">
 						<h3><strong>Quick Links</strong></h3>
 						<ul>
 							<li><a href="about.html">About me</a></li>
@@ -101,10 +95,11 @@
 							<li><a href="portfolio.html">Portfolio</a></li>
 							<li><a href="contact.html">Contact</a></li>
 							<li><a href="hireMe.html">Hire Me</a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="wrapper" style="background-color: blue; padding: 1em 2em">
+				<div class="col-md-5">
+					<div class="wrapper" style="background-color: silver; padding: 1px 30px">
 						<h3><strong>Follow Me</strong></h3>
 						<ul>
 							<li><a href="about.html">Linkedin</a></li>
@@ -112,15 +107,19 @@
 							<li><a href="portfolio.html">Twitter</a></li>
 							<li><a href="contact.html">Instagram</a></li>
 							<li><a href="hireMe.html">Youtube</a></li>
+						</ul>
 					</div>
 				</div>
-			</div>
-			<div class="row" style="text-align: center; padding: 1em; margin: 1em 0; background-color  -
-				:#ecf0f1;">
+			</div><!-- End row -->
+			
+			<div class="row" style="text-align: center; margin-top: 10px;">
 				Created by Thanduxolo Nodwengu 2016.
-			</div >
+			</div>
 		</div>
 	</footer>
 
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/bootstrap.js"></script>
+		
 </body>
 </html>
